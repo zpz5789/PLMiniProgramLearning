@@ -1,13 +1,48 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/course/course",
+    "pages/deliver/deliver",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f7f7f7",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#5f5f6b",
+    "selectedColor": "#2e73ff",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tab/home@2x.png",
+        "selectedIconPath": "assets/tab/home_hover@2x.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "assets/tab/xuexi@2x.png",
+        "selectedIconPath": "assets/tab/xuexi_hover@2x.png"
+      },
+      {
+        "pagePath": "pages/deliver/deliver",
+        "text": "投递",
+        "iconPath": "assets/tab/toudi@2x.png",
+        "selectedIconPath": "assets/tab/toudi_hover@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tab/mine@2x.png",
+        "selectedIconPath": "assets/tab/mine_hover@2x.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
